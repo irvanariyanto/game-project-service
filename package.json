@@ -1,0 +1,45 @@
+{
+  "name": "mock-platinum-service",
+  "version": "1.0.0",
+  "description": "mock service binar platinum",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "db:create": "sequelize db:create",
+    "db:drop": "sequelize db:drop",
+    "db:migration": "sequelize migration:generate --name",
+    "db:migrate": "sequelize db:migrate",
+    "db:seed:gen": "sequelize seed:generate --name",
+    "db:seed:exec": "sequelize db:seed:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrz8/mock-platinum-service.git"
+  },
+  "keywords": [
+    "service",
+    "test",
+    "learning",
+    "binar"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrz8/mock-platinum-service/issues"
+  },
+  "homepage": "https://github.com/hrz8/mock-platinum-service#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sequelize-cli": "^6.4.1"
+  }
+}
