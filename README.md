@@ -47,6 +47,6 @@ NodeJS: v16.13.1
 
 ## Author
 
-- Member 1
-- Member 2
-- Member 
+- Gregorius Ferry
+- Muhammad Nursalli
+- Irvan Ariyanto 
