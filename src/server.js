@@ -9,7 +9,7 @@ const { ErrorResponse } = require('./utils/response');
 const { AppError } = require('./utils/error');
 
 const app = express();
-const PORT = process.env.APP_PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json({ limit: '1mb' }));
 
