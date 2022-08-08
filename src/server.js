@@ -1,4 +1,5 @@
 require('dotenv').config();
+const cors = require('cors');
 
 const express = require('express');
 
@@ -9,6 +10,7 @@ const { ErrorResponse } = require('./utils/response');
 const { AppError } = require('./utils/error');
 
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json({ limit: '1mb' }));
