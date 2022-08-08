@@ -44,4 +44,4 @@ app.use(async (err, req, res, next) => {
   res.status(status).send(response);
 });
 
-app.listen(PORT, () => console.log(`server listening on port: ${PORT}`));
+app.listen(PORT, () => console.log(`server listening on PORT: ${PORT}`));
